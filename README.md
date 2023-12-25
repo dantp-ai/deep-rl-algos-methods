@@ -1,1 +1,3 @@
-# deep-rl-algos-methods
+# DeepRL algorithms and methods
+
+* DQN
