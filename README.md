@@ -1,3 +1,3 @@
 # DeepRL algorithms and methods
 
-* DQN
+* [DQN](./dqn.ipynb)
