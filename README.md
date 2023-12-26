@@ -10,3 +10,4 @@
 ## Content
 
 * [DQN](./dqn.ipynb)
+* [DDPG](./ddpg.ipynb)
