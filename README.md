@@ -11,3 +11,4 @@
 
 * [DQN](./dqn.ipynb)
 * [DDPG](./ddpg.ipynb)
+* [PPO](./ppo.ipynb)
