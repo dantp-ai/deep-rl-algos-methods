@@ -7,3 +7,9 @@ class BasePolicy(ABC):
     def get_action(self, observation):
         pass
 
+class RandomChainPolicy(BasePolicy):
+    def get_action(self, observation):
+        left = 0
+        right = 1
+        return jnp.random.choice([left, right])
+
