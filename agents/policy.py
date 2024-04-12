@@ -19,3 +19,9 @@ class PWNorthEastPolicy(BasePolicy):
         east = 1
         return jnp.random.choice([north, east])
 
+class MCFixedPolicy(BasePolicy):
+    def get_action(self, observation):
+        position, velocity = observation
+        # https://github.com/openai/gym/wiki/MountainCar-v0
+        # Add '+1' to convert to action values required by gym
+        return int(jnp.sign(velocity) + 1)
