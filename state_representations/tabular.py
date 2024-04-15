@@ -1,7 +1,8 @@
 import jax.numpy as jnp
+from state_representations.base import StateRepresentationInterface
 
 
-class TabularRepresentation:
+class TabularRepresentation(StateRepresentationInterface):
     def __init__(self, num_states, unit_norm=False):
 
         self.num_features = num_states
