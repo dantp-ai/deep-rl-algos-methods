@@ -1,9 +1,11 @@
 import jax.numpy as jnp
-from environments.base import BaseEnvironment
 from jax import random
+
+from environments.base import BaseEnvironment
 
 LEFT = 0
 RIGHT = 1
+
 
 class RandomWalkEnv(BaseEnvironment):
     """

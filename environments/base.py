@@ -1,4 +1,5 @@
-from abc import ABCMeta, abstractmethod
+from abc import ABCMeta
+from abc import abstractmethod
 
 
 class BaseEnvironment(metaclass=ABCMeta):
@@ -19,7 +20,7 @@ class BaseEnvironment(metaclass=ABCMeta):
     @abstractmethod
     def env_start(self):
         """The first method called when the experiment starts, called before the agent starts."""
-    
+
     @abstractmethod
     def env_step(self, action):
         """A step taken by the environment."""

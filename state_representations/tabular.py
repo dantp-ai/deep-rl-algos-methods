@@ -1,4 +1,5 @@
 import jax.numpy as jnp
+
 from state_representations.base import StateRepresentationInterface
 
 
